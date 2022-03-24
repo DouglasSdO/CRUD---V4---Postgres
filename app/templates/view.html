@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html = lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body style="background-color:rgb(124, 153, 238)">
+    <div class="col-8 m-auto pt-2 pb-2 text-center">
+        <h1><font face="Times">Vizualização</font></h1>
+    </div>
+
+    <div class="col-8 m-auto pt-3 pb-2 text-center">
+        <a href="/" class ="btn btn-primary">Voltar</a>
+        <br>
+        <br>
+    </div>
+    
+    <div class="container m-auto text-center">
+        <strong> <br> Nome:  <br></strong>{{db.nome}} <br>
+        <br>
+        <strong>E-mail:     <br></strong>{{db.email}}  <br>
+        <br>
+        <strong>Telefone:   <br></strong>{{db.telefone}}    <br>
+        <br>
+        <strong>CPF:        <br></strong>{{db.cpf}}    <br>
+        <br>
+        <strong>Cidade:     <br></strong>{{db.cidade}}    <br>
+        <br>
+        <strong>Estado:     <br></strong>{{db.estado}}    <br>
+    </div>
+</body>
+</html>
