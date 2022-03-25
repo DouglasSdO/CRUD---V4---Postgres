@@ -5,7 +5,7 @@ from django.db import models
 class Cadastro(models.Model):
     nome = models.CharField(max_length=150)
     email = models.EmailField(max_length=100)
-    telefone = models.DecimalField(max_digits=10, decimal_places=1)
-    cpf = models.DecimalField(max_digits=10, decimal_places=1)
+    telefone = models.DecimalField(max_digits=10, decimal_places=9)
+    cpf = models.DecimalField(max_digits=10, decimal_places=9)
     cidade = models.CharField(max_length=100)
     estado = models.CharField(max_length=100)
